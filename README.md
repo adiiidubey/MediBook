@@ -1,6 +1,6 @@
-# Prescripto - Doctor Appointment Web App
+# MediBook - Doctor Appointment Web App
 
-**Prescripto** is a full-stack web application designed to make healthcare more accessible by simplifying the process of booking doctor appointments. It offers three levels of login: **Patient**, **Doctor**, and **Admin**, each with distinct features tailored to their roles. The app integrates **online payment gateways (Stripe and Razorpay)** to facilitate seamless and secure payments. Built using the **MERN stack** (MongoDB, Express.js, React.js, and Node.js), Prescripto provides an efficient, user-friendly experience for both patients and healthcare providers.
+**MediBook** is a full-stack web application designed to make healthcare more accessible by simplifying the process of booking doctor appointments. It offers three levels of login: **Patient**, **Doctor**, and **Admin**, each with distinct features tailored to their roles. The app integrates **online payment gateways (Stripe and Razorpay)** to facilitate seamless and secure payments. Built using the **MERN stack** (MongoDB, Express.js, React.js, and Node.js), MediBook provides an efficient, user-friendly experience for both patients and healthcare providers.
 
 ## 🛠️ Tech Stack
 
@@ -48,7 +48,7 @@
 
 ## 📄 About Page
 
-- Provides information about **Prescripto’s vision** and mission.
+- Provides information about **MediBook’s vision** and mission.
 - **Why Choose Us** section highlights:
   - **Efficiency**: Streamlined appointment process.
   - **Convenience**: Online booking and payment.
@@ -106,7 +106,6 @@
 
 - Supports multiple payment methods:
   - **Cash Payment**
-  - **Stripe Integration**
   - **Razorpay Integration**
 - Ensures a secure and smooth payment experience for users.
 
@@ -144,7 +143,7 @@ To set up and run this project locally:
 ## 📦 Folder Structure
 
 ```plaintext
-prescripto/
+MediBook/
 ├── client/          # Frontend (React.js)
 ├── server/          # Backend (Node.js, Express.js)
 ├── models/          # MongoDB Schemas
@@ -164,7 +163,7 @@ We welcome contributions! Please feel free to submit issues, fork the repository
 
 ## 🌟 Acknowledgements
 
-- Thanks to the developers and contributors of MongoDB, Express.js, React.js, Node.js, Stripe, and Razorpay for their fantastic tools and libraries.
+- Thanks to the developers and contributors of MongoDB, Express.js, React.js, Node.js, and Razorpay for their fantastic tools and libraries.
 
 ---
 
