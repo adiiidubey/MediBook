@@ -103,6 +103,7 @@ const Appointment = () => {
         try {
 
             const { data } = await axios.post(backendUrl + '/api/user/book-appointment', { docId, slotDate, slotTime }, { headers: { token } })
+            console.log(data);
             if (data.success) {
                 toast.success(data.message)
                 getDoctosData()
