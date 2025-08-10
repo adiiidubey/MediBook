@@ -7,7 +7,7 @@
 - **Frontend**: React.js
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
-- **Payment Gateways**: Stripe, Razorpay
+- **Payment Gateways**: Razorpay
 - **Authentication**: JSON Web Token (JWT)
 
 ## 🔑 Key Features
@@ -115,8 +115,8 @@ To set up and run this project locally:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/prescripto.git
-   cd prescripto
+   git clone https://github.com/your-username/medibook.git
+   cd medibook
    ```
 
 2. **Install Dependencies**:
@@ -131,7 +131,6 @@ To set up and run this project locally:
      ```env
      MONGO_URI=your_mongodb_connection_string
      JWT_SECRET=your_jwt_secret
-     STRIPE_API_KEY=your_stripe_api_key
      RAZORPAY_API_KEY=your_razorpay_api_key
      ```
 
