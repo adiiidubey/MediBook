@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react'
+import { useContext, useEffect, useState } from 'react'
 import { AppContext } from '../context/AppContext'
 import axios from 'axios'
 import { toast } from 'react-toastify'
@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom'
 const Login = () => {
 
   const [state, setState] = useState('Sign Up')
-
+  
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
@@ -18,10 +18,9 @@ const Login = () => {
   const onSubmitHandler = async (event) => {
     event.preventDefault();
 
-    if (state === 'Sign Up') {
-
+    if (state == 'Sign Up') {
       const { data } = await axios.post(backendUrl + '/api/user/register', { name, email, password })
-
+      console.log(data)
       if (data.success) {
         localStorage.setItem('token', data.token)
         setToken(data.token)
