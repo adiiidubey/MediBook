@@ -37,11 +37,11 @@ const Footer = () => {
       <div>
         <hr />
         <p className="py-5 text-sm text-center">
-          © 2025 MediBook. All rights reserved.<br/>
-          Disclaimer: This website
-          is not a substitute for emergency medical services. If you are in a
-          medical emergency, please call your local emergency number
-          immediately.
+          © 2025 MediBook. All rights reserved.
+          <br />
+          Disclaimer: This website is not a substitute for emergency medical
+          services. If you are in a medical emergency, please call your local
+          emergency number immediately.
         </p>
       </div>
     </div>
