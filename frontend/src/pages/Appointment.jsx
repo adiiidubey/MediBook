@@ -8,7 +8,7 @@ import { toast } from "react-toastify";
 
 const Appointment = () => {
   const { docId } = useParams();
-  const { doctors, currencySymbol, backendUrl, token, getDoctosData } =
+  const { doctors, currencySymbol, backendUrl, token, getDoctorsData } =
     useContext(AppContext);
   const daysOfWeek = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
 
@@ -111,7 +111,7 @@ const Appointment = () => {
       console.log(data);
       if (data.success) {
         toast.success(data.message);
-        getDoctosData();
+        getDoctorsData();
         navigate("/my-appointments");
       } else {
         toast.error(data.message);
